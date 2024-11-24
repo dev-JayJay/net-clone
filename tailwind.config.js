@@ -14,7 +14,8 @@ module.exports = {
       },
       fontFamily: {
         Croissant: ['Croissant One','cursive'],
-        Kenio: ['Kenio', 'cursive']
+        Kenio: ['Kenio', 'cursive'],
+        segoe: ['Segoe UI', 'Arial', 'sans-serif'],
       },
       fontSize: {
         'size': '20px'
