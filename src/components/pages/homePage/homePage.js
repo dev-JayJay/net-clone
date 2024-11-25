@@ -7,6 +7,7 @@ import { enqueueSnackbar } from "notistack";
 
 import { fetchData } from "../../../api/fetchData";
 import { Footer } from "./components/footer";
+import { Outlet } from "@tanstack/react-router";
 
 export const HomePage = () => {
   const { mutate, isPending, isError, isSuccess, data, error } = useMutation({
@@ -76,6 +77,7 @@ export const HomePage = () => {
           )}
         </div>
       </section>
+      {/* <Outlet /> */}
       <section>
         <Footer />
       </section>
