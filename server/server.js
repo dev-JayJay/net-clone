@@ -13,7 +13,7 @@ const PORT = 8081;
 const memoryStore = new session.MemoryStore();
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://localhost:3000',
   allowedHeaders: ['Content-Type', 'Authorization'],
 }));
 
